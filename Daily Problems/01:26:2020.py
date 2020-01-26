@@ -21,6 +21,7 @@ def countingValleys(s):
     return times
 
 if __name__ == '__main__':
+    #Input must have no spaces
     n = input('Please enter a string containing only U\'s and D\'s ')
 
     result = countingValleys(n)
