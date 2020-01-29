@@ -3,9 +3,6 @@
 import os
 import sys
 
-#
-# Complete the getMoneySpent function below.
-#
 def getMoneySpent(keyboards, drives, b):
     amountsToSpend = []
     for k in keyboards:
