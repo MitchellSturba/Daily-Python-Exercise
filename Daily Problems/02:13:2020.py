@@ -10,13 +10,10 @@ import sys
 # Complete the repeatedString function below.
 def repeatedString(s, n):
     counter = 0
-    mylist = [0] * len(s)
     for x in range(len(s)):
         if s[x] == 'a':
-            mylist [x] += 1
             counter += 1
     
-    print(mylist)
     # percentA = counter/len(s)
     AmountAs = counter * (int)(n / len(s))
     rem = n % len(s)
